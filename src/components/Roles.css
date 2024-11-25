@@ -1,0 +1,22 @@
+.roles-container {
+  padding: 20px;
+}
+
+.add-role-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+}
+
+.permissions-select {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.permissions-select label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+} 
